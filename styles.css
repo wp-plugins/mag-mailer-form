@@ -1,0 +1,69 @@
+
+/* plugins styles */
+input#email_settings_email_settings_shortcode, .inputClass {width: 320px;}
+
+textarea.textareaClass {width: 75%;height: 400px; line-height: 22px;padding: 6px 12px;}
+
+.custom-template {display: none;}
+.custom-template.custom-template-active{display: block;}
+
+.form-fields.custom-template-active .default-fields-list {display: none;}
+
+.form-fields .custom-form-fields-list {display: none;}
+.form-fields.custom-template-active .custom-form-fields-list {display: block;}
+
+.email-body-fields {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-family: Verdana;
+    padding: 4px 8px;
+    cursor: text;
+    float: left;
+    margin: 0 6px 6px 0;
+}
+
+label.strong {
+    font-weight: 600;
+}
+
+#span-default-field {
+    display: none;
+}
+
+input.fullWidth {
+    width: 100%;
+}
+
+#saveNameFields {
+    background-color: #5ebd83;
+    border-color: #3a995f;
+}
+#saveNameFields:hover {
+    background-color: #4fae74;
+}
+
+p.saveNameFields {
+    text-align: right;
+}
+
+.short-tags{
+    float: left;
+    width: 100%;
+}
+
+#duplicateNameFields{
+    display: none;
+}
+#duplicateNameFields.errors {
+    border: 2px solid #d54e21;
+    display: block;
+    padding: 2px 4px;
+}
+#duplicateNameFields > span {
+    font-weight: 600;
+}
+#fieldsSaved {
+    display: none;
+    color: #3a995f;
+    font-weight: 600;
+}
